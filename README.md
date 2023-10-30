@@ -77,6 +77,9 @@ The assignment is gradable and carries a total of 5 points. The grading criteria
    - Test code organized in arrange act assert pattern
    - All functions in code and tests have JSDOC comment explaining the purpose of the function
 
+## Late Submission Policy
+   - 1 point deducted for first 24 hours
+   - 2 points deducted for submission after 24 hours
 ---
 
 
