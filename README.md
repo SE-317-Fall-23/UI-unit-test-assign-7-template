@@ -59,19 +59,23 @@ Same as the backend unit testing assginement
 The assignment is gradable and carries a total of 5 points. The grading criteria are as follows:
 
 1. **UI Component Testing (1 point)**
-   - Verify the correctness of UI components, including labels and input acceptance.
+   - Verify the correctness of UI components, including labels and input acceptance
+   - Use snapshot testing to verify the correctness of UI components
 
 2. **Input Validation (1 points)**
    - Create test cases to validate user input for each field, including username, first name, last name, email address, and address details.
    - Label tests clearly as "Positive" or "Negative" test cases to indicate whether they are testing expected behavior or invalid inputs.
 
 3. **Form Submission Testing (2 point)**
-   - Ensure that the user registration form correctly processes and submits user registration details.
-   - Test form behavior with valid and invalid data.
+   - Test cover the following scenarios:
+   - User registration form correctly processes and submits user registration details to server
+   - Test form behavior with valid and invalid data
+   - Validate inputs before submitting to server
+   - Handle various error scenarios from the server (invalid addrres, duplicate username, etc) and show appropriate error messages to the user
  
-4. **Code Quality and Documentation (0.5 points)**
-   - Ensure well-organized code and documentation.
-   - Clear explanations and documentation of test cases, testing approach, and any notable findings.
+4. **Code Quality and Documentation (1 point)**
+   - Test code organized in arrange act assert pattern
+   - All functions in code and tests have JSDOC comment explaining the purpose of the function
 
 ---
 
