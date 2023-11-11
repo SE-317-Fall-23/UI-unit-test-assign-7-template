@@ -45,7 +45,7 @@ Like the previous assignment, the registration form includes the following field
 
 ### Input Validation
 
-Same as the backend unit testing assginement
+Same as the backend unit testing assignment
 
 * First name, Last name. Should not be empty. Should have a max length of 256 characters. Alphabetic characters, spaces, and possibly hyphens or apostrophes.
 * Email address. Should have username@domain.com format. An email address can contain letters, numbers, dots ".", hyphens "-", hash "#" and underscores "_."
