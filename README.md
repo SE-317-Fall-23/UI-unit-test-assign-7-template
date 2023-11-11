@@ -26,7 +26,7 @@ Like the previous assignment, the registration form includes the following field
 
 1. Implement the UI to collect the user registration form. 
 2. Show an error message if the input is invalid as soon as the user leaves the field
-3. Each form fiels should have a label
+3. Each form field should have a label
 4. Submit the form to the backend. For this assignment use a mock endpoint. See apiService.js for example.
 5. Show a success message if the form is submitted successfully
 6. Show an error message if the form is not submitted successfully
@@ -41,7 +41,7 @@ Like the previous assignment, the registration form includes the following field
 * Use the included code as a starting point. You can add additional files if needed.
 * Don't use any framework or library. Use plain javascript.
 * Use Vitest as the testing framework. You can use any other tools that come with Vitest if needed.
-* Boostrap is included via a script tag. 
+* Bootstrap is included via a script tag. 
 
 ### Input Validation
 
@@ -50,8 +50,8 @@ Same as the backend unit testing assignment
 * First name, Last name. Should not be empty. Should have a max length of 256 characters. Alphabetic characters, spaces, and possibly hyphens or apostrophes.
 * Email address. Should have username@domain.com format. An email address can contain letters, numbers, dots ".", hyphens "-", hash "#" and underscores "_."
 * Phone number - ten digit numbers
-* Address - made up of street address, address line 2, city, state/province/region, country, zip code. Each sub field should not have more than 256 alphanumeric characters. (In the next assignment you will make api calls to verify if the address is a real address)
-* Date of Birth - Should be a valid date in the past. (Updated on 10/10) - Accept the date as a string in format "MM/DD/YYYY".  
+* Address - made up of street address, address line 2, city, state/province/region, country, and zip code. Each sub field should not have more than 256 alphanumeric characters. (In the next assignment you will make API calls to verify if the address is a real address)
+* Date of Birth - Should be a valid date in the past. (Updated on 10/10) - Accept the date as a string in the format "MM/DD/YYYY".  
 
 
 ## Grading (5 Points)
@@ -71,7 +71,7 @@ The assignment is gradable and carries a total of 5 points. The grading criteria
    - User registration form correctly processes and submits user registration details to server
    - Test form behavior with valid and invalid data
    - Validate inputs before submitting to server
-   - Handle various error scenarios from the server (invalid addrres, duplicate username, etc) and show appropriate error messages to the user
+   - Handle various error scenarios from the server (invalid address, duplicate username, etc) and show appropriate error messages to the user
  
 4. **Code Quality and Documentation (1 point)**
    - Test code organized in arrange act assert pattern
